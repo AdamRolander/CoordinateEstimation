@@ -1,0 +1,209 @@
+{
+  "scene_id": 26,
+  "scene_name": "scene_0026",
+  "camera": {
+    "location": [
+      6,
+      -6,
+      3
+    ],
+    "resolution": [
+      640,
+      480
+    ],
+    "intrinsic_matrix": [
+      [
+        622.2222222222222,
+        0.0,
+        320.0
+      ],
+      [
+        0.0,
+        622.2222222222222,
+        240.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "pose_matrix": [
+      [
+        0.7071067690849304,
+        0.04159454628825188,
+        0.7058823704719543,
+        6.0
+      ],
+      [
+        0.7071067690849304,
+        -0.04159462824463844,
+        -0.7058823108673096,
+        -6.0
+      ],
+      [
+        5.9267556196118676e-08,
+        0.9982683658599854,
+        -0.05882362648844719,
+        3.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "focal_length_mm": 35,
+    "sensor_width_mm": 36,
+    "target_location": [
+      0,
+      0,
+      3.5
+    ]
+  },
+  "files": {
+    "hdf5_file": "0.hdf5",
+    "rgb_image": "scene_0026.png",
+    "depth_map": "scene_0026_depth.npy",
+    "semantic_segmentation": "scene_0026_semantic.npy",
+    "instance_segmentation": "scene_0026_instance.npy"
+  },
+  "cubes": {
+    "cube_1": {
+      "location": [
+        -1.1889894706163613,
+        -1.1793653836113855,
+        3.8022713782790536
+      ],
+      "scale": 0.5494582532446567,
+      "actual_size": 1.0989165064893134,
+      "category_id": 1,
+      "color": [
+        0.8,
+        0.2,
+        0.2
+      ],
+      "roughness": 0.3511489927768707,
+      "mask_pixel_count": 9702,
+      "mask_coverage_percent": 3.1582031250000004,
+      "bbox_width": 115,
+      "bbox_height": 92,
+      "bbox_area": 10580,
+      "bbox_aspect_ratio": 1.25,
+      "bbox_center": [
+        197.0,
+        213.5
+      ],
+      "bbox_coords": [
+        140,
+        168,
+        254,
+        259
+      ],
+      "pixel_density": 0.9170132325141777,
+      "equivalent_radius_pixel": 55.57195799821289,
+      "equivalent_radius_bbox": 58.03204800646368,
+      "bbox_coverage_percent": 3.4440104166666665
+    },
+    "cube_2": {
+      "location": [
+        -0.09098455185484067,
+        0.9206849242268484,
+        3.8702285402134984
+      ],
+      "scale": 0.5902340855664181,
+      "actual_size": 1.1804681711328362,
+      "category_id": 2,
+      "color": [
+        0.2,
+        0.8,
+        0.2
+      ],
+      "roughness": 0.554177463054657,
+      "mask_pixel_count": 9576,
+      "mask_coverage_percent": 3.1171875,
+      "bbox_width": 113,
+      "bbox_height": 90,
+      "bbox_area": 10170,
+      "bbox_aspect_ratio": 1.2555555555555555,
+      "bbox_center": [
+        359.0,
+        213.5
+      ],
+      "bbox_coords": [
+        303,
+        169,
+        415,
+        258
+      ],
+      "pixel_density": 0.9415929203539823,
+      "equivalent_radius_pixel": 55.20992184468277,
+      "equivalent_radius_bbox": 56.89649850816086,
+      "bbox_coverage_percent": 3.310546875
+    }
+  },
+  "segmentation_info": {
+    "method": "blenderproc_builtin",
+    "background_category_id": 0,
+    "cube_category_ids": [
+      1,
+      2
+    ],
+    "ground_category_id": 3,
+    "render_keys": [
+      "depth",
+      "category_id_segmaps",
+      "instance_attribute_maps",
+      "colors"
+    ],
+    "unique_segmentation_ids": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "lighting": {
+    "sun_light": {
+      "type": "SUN",
+      "location": [
+        2,
+        2,
+        3
+      ],
+      "energy": 5,
+      "rotation_euler": [
+        0.3,
+        0.3,
+        0
+      ]
+    },
+    "point_light": {
+      "type": "POINT",
+      "location": [
+        -1,
+        -1,
+        2
+      ],
+      "energy": 100
+    }
+  },
+  "ground": {
+    "scale": [
+      10,
+      10,
+      1
+    ],
+    "location": [
+      0,
+      0,
+      -1
+    ],
+    "color": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  }
+}

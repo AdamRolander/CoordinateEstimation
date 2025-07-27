@@ -1,0 +1,209 @@
+{
+  "scene_id": 3,
+  "scene_name": "scene_0003",
+  "camera": {
+    "location": [
+      6,
+      -6,
+      3
+    ],
+    "resolution": [
+      640,
+      480
+    ],
+    "intrinsic_matrix": [
+      [
+        622.2222222222222,
+        0.0,
+        320.0
+      ],
+      [
+        0.0,
+        622.2222222222222,
+        240.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "pose_matrix": [
+      [
+        0.7071067690849304,
+        0.04159454628825188,
+        0.7058823704719543,
+        6.0
+      ],
+      [
+        0.7071067690849304,
+        -0.04159462824463844,
+        -0.7058823108673096,
+        -6.0
+      ],
+      [
+        5.9267556196118676e-08,
+        0.9982683658599854,
+        -0.05882362648844719,
+        3.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "focal_length_mm": 35,
+    "sensor_width_mm": 36,
+    "target_location": [
+      0,
+      0,
+      3.5
+    ]
+  },
+  "files": {
+    "hdf5_file": "0.hdf5",
+    "rgb_image": "scene_0003.png",
+    "depth_map": "scene_0003_depth.npy",
+    "semantic_segmentation": "scene_0003_semantic.npy",
+    "instance_segmentation": "scene_0003_instance.npy"
+  },
+  "cubes": {
+    "cube_1": {
+      "location": [
+        0.17691690118380743,
+        -0.520179333807683,
+        3.8117601157885836
+      ],
+      "scale": 0.4475929254183783,
+      "actual_size": 0.8951858508367566,
+      "category_id": 1,
+      "color": [
+        0.2,
+        0.8,
+        0.8
+      ],
+      "roughness": 0.5323408246040344,
+      "mask_pixel_count": 7153,
+      "mask_coverage_percent": 2.3284505208333335,
+      "bbox_width": 97,
+      "bbox_height": 79,
+      "bbox_area": 7663,
+      "bbox_aspect_ratio": 1.2278481012658229,
+      "bbox_center": [
+        300.0,
+        210.0
+      ],
+      "bbox_coords": [
+        252,
+        171,
+        348,
+        249
+      ],
+      "pixel_density": 0.9334464309017356,
+      "equivalent_radius_pixel": 47.716565424102505,
+      "equivalent_radius_bbox": 49.38834536433052,
+      "bbox_coverage_percent": 2.4944661458333335
+    },
+    "cube_2": {
+      "location": [
+        1.6352736007412991,
+        -0.12307064952391356,
+        3.6523539252802197
+      ],
+      "scale": 0.5211199060278654,
+      "actual_size": 1.0422398120557308,
+      "category_id": 2,
+      "color": [
+        0.2,
+        0.8,
+        0.2
+      ],
+      "roughness": 0.6982579231262207,
+      "mask_pixel_count": 12001,
+      "mask_coverage_percent": 3.906575520833333,
+      "bbox_width": 127,
+      "bbox_height": 101,
+      "bbox_area": 12827,
+      "bbox_aspect_ratio": 1.2574257425742574,
+      "bbox_center": [
+        411.0,
+        215.0
+      ],
+      "bbox_coords": [
+        348,
+        165,
+        474,
+        265
+      ],
+      "pixel_density": 0.9356045840804553,
+      "equivalent_radius_pixel": 61.8064474314102,
+      "equivalent_radius_bbox": 63.89805090986331,
+      "bbox_coverage_percent": 4.175455729166667
+    }
+  },
+  "segmentation_info": {
+    "method": "blenderproc_builtin",
+    "background_category_id": 0,
+    "cube_category_ids": [
+      1,
+      2
+    ],
+    "ground_category_id": 3,
+    "render_keys": [
+      "depth",
+      "category_id_segmaps",
+      "instance_attribute_maps",
+      "colors"
+    ],
+    "unique_segmentation_ids": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "lighting": {
+    "sun_light": {
+      "type": "SUN",
+      "location": [
+        2,
+        2,
+        3
+      ],
+      "energy": 5,
+      "rotation_euler": [
+        0.3,
+        0.3,
+        0
+      ]
+    },
+    "point_light": {
+      "type": "POINT",
+      "location": [
+        -1,
+        -1,
+        2
+      ],
+      "energy": 100
+    }
+  },
+  "ground": {
+    "scale": [
+      10,
+      10,
+      1
+    ],
+    "location": [
+      0,
+      0,
+      -1
+    ],
+    "color": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  }
+}
